@@ -4,13 +4,13 @@
 
 ### Install
 
-```
+```sh
 yarn add @orodio/interleave
 ```
 
 ### Use
 
-```
+```javascript
 import { interleave } from '@orodio/interleave'
 
 const arr1 = [1, 2, 3, 4, 5]
