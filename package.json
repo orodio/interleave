@@ -1,6 +1,6 @@
 {
   "name": "@orodio/interleave",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "orodio does interleave",
   "main": "lib/index.js",
   "repository": "https://github.com/orodio/interleave",
