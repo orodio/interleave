@@ -3,8 +3,8 @@ import { interleave } from './index'
 const s = arr => `[${arr.join(',')}]`
 
 const snap = (a, b) => {
-  const r = interleave(a,b)
-  it(`interleave(${s(a)},${s(b)}) -> ${s(r)}`, () => {
+  // const r = interleave(a,b)
+  it(`interleave(${s(a)},${s(b)})`, () => {
     expect(interleave(a,b)).toMatchSnapshot()
   })
 }
